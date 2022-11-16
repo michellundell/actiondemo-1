@@ -4,6 +4,7 @@ sample : fx.h sample.c fx.c
 check: sample
 	echo "hejsan"
 	./sample
+	./sample tobias arwen och jesper
 
 dist: sample
 	gzip sample
