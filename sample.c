@@ -3,8 +3,8 @@
 
 int sample(int x)
 {
-  printf("hello\n");
+  printf("hello running with x = %d\n",x);
   fx();
-  printf("hello again\n");
+  printf("returning(%d)\n",x-1);
   return( x - 1 );
 }
