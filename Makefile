@@ -13,5 +13,5 @@ sample : fx.h sample.c fx.c
 	cc main.c sample.c fx.c -o sample
 
 distcheck: dist
-	./sample
 	gunzip sample.gz
+	./sample
