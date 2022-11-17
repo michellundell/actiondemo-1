@@ -4,11 +4,12 @@
 int copy_buf (char *to, int pos, char *from, int len)
 {
     int i;
-    for (i=0;i<len;<i++){
+    for (i=0;i<len;i++)
+    {
          to[pos] = from [i];
          pos++;
     }
-    return pos
+    return pos;
 }
 
 int sample(int x)
